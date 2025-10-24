@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 *{
-    font-family: "Fugaz One", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: url('../assets/backgroundcerto.png') no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .containerCadastro{
     display: flex;

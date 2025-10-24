@@ -15,19 +15,15 @@ export default function Cadastro(){
                     <h1>Cadastro</h1>
                     <form>
                         <div className="inputs-cadastro" >
-                            <label htmlFor="name" id='primeiroInput'>UserName:</label>
                             <input type="text" placeholder='Digite seu nome' id='name' name='name' />
                         </div>
                         <div className="inputs-cadastro">    
-                            <label htmlFor="email">Email:</label>
                             <input type="email" placeholder='Digite seu email' id='email' name='email' />
                         </div>
                         <div className="inputs-cadastro">
-                            <label htmlFor="password">Senha:</label>
                             <input type="password" placeholder='Digite sua senha' id='password' name='password' />
                         </div>
                         <div className="inputs-cadastro">
-                            <label htmlFor="confirmPassword">Confirmar senha:</label>
                             <input type="password" placeholder='Confirme sua senha' id='name' name='name' />
                         </div>
                         <button>Enviar!</button>
